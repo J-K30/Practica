@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA</title>
+    <link rel="stylesheet" href="css/styele.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <!-- <script src=" " crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="nombre">
+        <img src="img/logo.jpg" class="logo">
+        <div class="titulo">
+            <h3><p>BRITANICO</p></h3>
+            <h1>el poder del ingles</h1>
+        </div>
+    </div>
+    
+    <div class="contenedor_slider">
+        <div class="slider" id="slider">
+            <div class="slider_section">
+                <img src="img/foto1.jpg" class="slider__img">
+            </div>
+
+            <div class="slider_section">
+                <img src="img/foto2.jpg" class="slider__img">
+            </div>
+
+            <div class="slider_section">
+                <img src="img/foto3.jpg" class="slider__img">
+            </div>
+
+            <div class="slider_section">
+                <img src="img/foto4.jpg" class="slider__img">
+            </div>
+        </div>
+        <div class="slider__btn slider_btnDerecha" id="btn_derecha">&#62</div>
+        <div class="slider__btn slider_btnIzquerda" id="btn_izquerda">&#60</div>
+
+    </div>
+    <div class ="enlaces">
+        <a class="color1" href="#">Informacion</a>
+        <a  class="color2" href="#">Album de fotos</a>
+        <a  class="color3" href="#">Educacion Infantil</a>
+        <a class="color1" href="#">Educacion Primaria</a>
+        <a class="color3"  href="#">E.S.O.</a>
+        <a  class="color1" href="#">Bachillerato</a>
+        <a class="color3" href="#">Formacion Profesional</a>
+        <a class="color2"  href="#">Portal transparente</a>
+        <a href="#">Enlaces</a>
+        </div>
+
+        <!-- icono de las redes sociales -->
+
+        <div>
+            <div class="container">
+                <input type="checkbox" id="btn-mas">
+                <div class="redes">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                </div>
+                <div class="btn-mas">
+                    <label for="btn-mas" class="fa fa-plus"></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- video -->
+        <div class="video">
+            <div class="boton">
+        <a href="#registro"> <button type="button" >REGISTRARSE   </button></a>
+            </div><iframe width="90%" height="70%" src="https://www.youtube.com/embed/odoBLyGfA2I" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- rformulario de resgistro -->
+        <div id="registro">
+            <!-- <head><h1>REGISTRARSE</h1></head> -->
+            <form>
+                    <div class="f1" > <br> <br>
+                    <label>Usuario</label>
+                    <input class="storage"   type="text"  name="usuario" id="usuario" placeholder=" Usuario">
+                    <label>Contraseña</label>
+                    <input class="storage"   type="password"  name="password" id="password" placeholder="password">
+                    <label>Correo Electronico</label>
+                    <input  class="storage"   type="text"  name="mail" id="mail" placeholder="Correo electronico">    
+                    </div>
+                    <div class="f2" > <br> <br>
+                    <label>Nombres</label>
+                    <input  class="storage"   type="text"  name="nombres" id="nombres" placeholder="Nombres">
+                    <label>Repetir Contraseña</label>
+                    <input class="storage"   type="password1"  name="password1" id="password1" placeholder="password1">
+                    <label>Celular</label> 
+                    <input  class="storage"   type="text"  name="phone" id="phone" placeholder="Celular">      
+                    </div>
+            </form>         
+                        <div class="boton">
+                    <a href="#registro"> <button class="boton" type="button" onclick="registro()" >ENVIAR</button></a></div>
+                <!-- <script type="text/javascript" src="app.js"></script> -->
+                <script src="js/app.js"></script>
+        </div>
+
+        
+</body>
+</html>
